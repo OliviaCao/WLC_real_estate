@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<link href='http://fonts.googleapis.com/css?family=Josefin+Sans:100,400' rel='stylesheet' type='text/css'>
+	<meta charset= "utf-8">
+	<title>Welcome! </title>
+	<style type="text/css">
+	@import url("skeleton.css");
+    #main{
+        background-color: #000000;
+        padding-left: 0;
+        padding-right: 0;
+    }
+    #main_text{
+        padding-left: 0;
+        padding-right: 0; 
+        background-color: #000000;
+        padding-bottom: 6%;
+
+    }
+    ul.img-list {
+
+      list-style-type: none;
+      margin: 0;
+      padding: 0;
+      text-align: center;
+    }
+
+    ul.img-list li {
+      display: inline-block;
+      height: 270px;
+      margin: 0;
+      position: relative;
+      width: 370px;
+
+
+
+    }
+
+    span.text-content span {
+      display: table-cell;
+      text-align: center;
+      vertical-align: middle;
+    }
+
+    span.text-content {
+   
+      background: rgba(0,0,0,0.5);
+      color: white;
+      cursor: pointer;
+      display: table;
+      height: 270px;
+      left: 0;
+      position: absolute;
+      top: 0;
+      width: 370px;
+      opacity: 0;
+      -webkit-transition: opacity 500ms;
+      -moz-transition: opacity 500ms;
+      -o-transition: opacity 500ms;
+      transition: opacity 500ms;
+    }
+ul.img-list li:hover span.text-content {
+  opacity: 1;
+}
+	</style>
+    <script type="text/javascript">
+        function MM_preloadImages() { //v3.0
+          var d=document; if(d.images){ if(!d.MM_p) d.MM_p=new Array();
+            var i,j=d.MM_p.length,a=MM_preloadImages.arguments; for(i=0; i<a.length; i++)
+            if (a[i].indexOf("#")!=0){ d.MM_p[j]=new Image; d.MM_p[j++].src=a[i];}}
+}
+    </script>
+</head>
+<body >
+<div id="header"> 
+	<h1> WLC </h1>
+	<h3> A real estate company offering diverse types of house at a various amount of locations</h3>
+</div>
+
+
+
+<div class="menu-wrap">
+    <nav class="menu">
+        <ul class="clearfix">
+            <li><a href="index.html">Home</a></li>
+            <li class="current-tab">
+                <a href="#">Locations <span class="arrow">&#9660;</span></a>
+ 
+                <ul class="sub-menu">
+                    <li ><a href="Quebec.html">Gatineau Quebec</a></li>
+                    <li><a href="Florida.html">Florida TampaBay</a></li>
+                </ul>
+            </li>
+            <li><a href="FAQ.html">F.A.Q</a></li>
+            <li><a href="Contact.html">Contact Us</a></li>
+        </ul>
+    	
+
+    </nav>
+    
+</div>
+
+
+<div id="main">
+<div id="main_text">
+<h2>Quebec</h2><br><br><br>
+<div id = "pictures"> 
+
+        <ul class = "img-list">
+            <li>
+                <a href="SatelliteB.html">
+                <img src="satelliteB2.jpg" alt="d" name="Image4" width="370" height="270" id="Image4" />
+                <span class="text-content"><span>QUEBEC, Satellite B</span></span>
+                </a>
+            </li>
+            <li>
+                <a href="SatelliteA.html">
+                <img src="satelliteA2.jpg" width="370" height="270" id="Image5" />
+                <span class="text-content"><span>QUEBEC, Satellite A</span></span>
+                </a>
+                </li>
+        </ul>
+        
+
+
+
+</div>
+</div>
+</div>
+</body>
+</html>

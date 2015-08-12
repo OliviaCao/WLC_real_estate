@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link href='http://fonts.googleapis.com/css?family=Josefin+Sans:100,400' rel='stylesheet' type='text/css'>
+    <meta charset= "utf-8">
+            <script type="text/javascript" src="Image-Slider-Pager.js"></script>
+        <link rel="stylesheet" type="text/css" href="Image-Slider-Pager.css">
+    <title>Welcome! </title>
+    <style type="text/css">
+    @import url("skeleton.css");
+    #main{
+        background-color: #000000;
+    }
+    #main_text{
+        background-color: #000000;
+        padding-bottom: 8%;
+        padding-top: :0%;
+
+    }
+    h1{
+        text-align: center;
+    }
+    #address, #location, #information, #availability {
+        color: #FFFFFF;
+    }
+    .slider_image {
+        height: 450;
+        width: 600;
+    }
+    #address {
+            padding-top: 0px;
+            height: 50px;
+            font-size: 20px;
+            font-family: 'Josefin Sans', sans-serif;
+            font-weight: 100;
+            color: #FDFCFC;
+            text-align: center;
+    }
+    #location, #availability, #information{
+            padding-top: 0px;
+            height: 60px;
+            font-size: 20px;
+            font-family: 'Josefin Sans', sans-serif;
+            font-weight: 100;
+            color: #FDFCFC;
+            text-align: center; 
+            padding-left: 14%;
+            padding-right: 14%;
+    }
+    </style>
+    <script type="text/javascript">
+        function MM_preloadImages() { //v3.0
+          var d=document; if(d.images){ if(!d.MM_p) d.MM_p=new Array();
+            var i,j=d.MM_p.length,a=MM_preloadImages.arguments; for(i=0; i<a.length; i++)
+            if (a[i].indexOf("#")!=0){ d.MM_p[j]=new Image; d.MM_p[j++].src=a[i];}}
+}
+    
+    </script>
+
+</head>
+<body >
+<div id="header"> 
+    <h1> WLC </h1>
+    <h3> A real estate company offering diverse types of house at a various amount of locations</h3>
+</div>
+
+
+
+<div class="menu-wrap">
+    <nav class="menu">
+        <ul class="clearfix">
+            <li><a href="index.html">Home</a></li>
+            <li class="current-tab">
+                <a href="#">Locations <span class="arrow">&#9660;</span></a>
+ 
+                <ul class="sub-menu">
+                    <li ><a href="Quebec.html">Gatineau Quebec</a></li>
+                    <li><a href="Florida.html">Florida TampaBay</a></li>
+                </ul>
+            </li>
+            <li><a href="FAQ.html">F.A.Q</a></li>
+            <li><a href="Contact.html">Contact Us</a></li>
+        </ul>
+        
+
+    </nav>
+    
+</div>
+
+
+<div id="main">
+<div id="main_text">
+<h1>6 & 8 rue du Satellite  </h1><br><hr><br><br><br>
+    <div id = "address"> <i>Gatineau, Quebec, Canada J9A 3K1 </i></div> 
+
+            <div id = "pictures" align="center"> 
+                    <div class="container">
+                        <div class="slider_wrapper">
+                            <ul id="image_slider">
+                                <li><img src="satellitea3.jpg" width="600" height="450"></li>
+                                <li><img src="satellite2.jpg" width="600" height="450"></li>
+ 
+                                
+                            </ul>                   
+                            <span class="nvgt" id="prev"></span>
+                            <span class="nvgt" id="next"></span>        
+                        </div>
+                        <ul id="pager">
+                        </ul>
+                    </div>
+            </div>
+
+            
+
+            <div id = "location">
+                <br>Location: Adjacent to Plateau shopping center, Plateau de la Capital. Face Cinema. School, day care center and buses nearby. 5 minutes to Champlain Bridge.  Private entrance, parking, washer/dryer hook up, storage shed. $865/month + hydro.
+            </div><br> <br>
+            <div id = "information">
+                <br>Information: Large 3 bedroom in triplex constructed in year 2000. 
+            </div>
+            <div id = "availability">
+                Availability: Two apartments available out of 6.
+            </div>
+ 
+        </td>
+
+</div>
+</div>
+</div>
+</body>
+</html>

@@ -1,0 +1,14 @@
+TO DO
+INDEX:
+- search query 
+- pictures with slideshow banner
+- introduction
+- menu : home, locations, contact us, contract, FAQ/question   
+<div id = "menu"> 
+	<ul>
+  		<li><a href="default.asp">Home</a></li>
+  		<li><a href="news.asp">News</a></li>
+  		<li><a href="contact.asp">Contact</a></li>
+  		<li><a href="about.asp">About</a></li>
+	</ul>
+</div>

@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<link href='http://fonts.googleapis.com/css?family=Josefin+Sans:100,400' rel='stylesheet' type='text/css'>
+	<meta charset= "utf-8">
+	<title>Welcome! </title>
+	<style type="text/css">
+	@import url("skeleton.css");
+
+      input, .text {
+    border:1px solid #ccc;
+    width:300px;
+    height: 30px;
+    padding:10px;
+    margin:5px 15px;
+    border-radius:5px;
+    text-align: left;
+}
+      .text{
+    border:1px solid #ccc;
+    width:300px;
+    height: 100px;
+    padding:10px;
+    margin:5px 15px;
+    border-radius:5px;
+    text-align: left;
+}
+  .submit {
+    border:1px solid #ccc;
+    width:100px;
+    height: 30px;
+    padding:10px;
+    margin:5px 15px;
+    border-radius:5px;
+    text-align: left;
+}
+.send {
+    width:220px;
+}
+ul{
+    list-style-type: none;
+}
+#infolist{
+    text-align: left;
+}
+img {
+   padding:2px;
+   border:4px solid #0F713B;
+}
+    
+	</style>
+</head>
+<body>
+<div id="header"> 
+	<h1> WLC </h1>
+	<h3> A real estate company offering diverse types of house at a various amount of locations</h3>
+</div>
+
+
+
+<div class="menu-wrap">
+    <nav class="menu">
+        <ul class="clearfix">
+            <li><a href="index.html">Home</a></li>
+            <li>
+                <a href="#">Locations <span class="arrow">&#9660;</span></a>
+ 
+                <ul class="sub-menu">
+                    <li><a href="Quebec.html">Gatineau Quebec</a></li>
+                    <li><a href="Florida.html">Florida TampaBay</a></li>
+                </ul>
+            </li>
+            <li><a href="FAQ.html">F.A.Q</a></li>
+            <li class="current-tab"><a href="Contact.html">Contact Us</a></li>
+        </ul>
+    	
+
+    </nav>
+    
+</div>
+
+
+<div id="main">
+<div id="main_text">
+<h2>Contact Us</h2><hr>
+	<form name="contactform" method="post" action="send_form_email.php">
+ 
+<table width="1050px">
+ 
+<tr>
+ 
+ <td valign="top" width = "100px">
+ 
+  <table width = "400px">
+<p>Please fill in all of the fields of this form</p><br>
+<tr><td><input placeholder = "FIRST NAME (required)" type="text" name="first_name" /></td></tr>
+<tr><td><input placeholder = "LAST NAME (required)" type="text" name="last_name" /></td></tr>
+<tr><td><input placeholder = "EMAIL (required)" type="text" name="email" /></td></tr>
+<tr> <td><input placeholder = "PHONE NUMBER (required)" type="text" name="telephone" /></td></tr>
+<tr><td colspan="2" style="text-align:left"> 
+<br />
+<textarea class = "text"  rows="5" cols="50" name="comments">
+QUESTIONS/ COMMENTS (required)
+
+</textarea></td></tr>
+<tr><td><input class = "submit" type="submit" value="Submit">  </td></tr>
+</table>
+ 
+ </td>
+ 
+<td valign="top">
+<div = "infolist">
+<ul>
+
+    <li><p>Name | Ming Cao</p></li>
+    <li><p>Email | ming64cao@gmail.com</p></li>
+    <li><p>Phone | 723.123.2342</p></li>
+    <li><p>Availibility | 9 - 5 Monday - Friday</p></li><br>
+        <li><img src="satellite2.jpg" width="450" height="300" ></li>
+</ul>
+
+</td>
+ 
+</tr>
+</div>
+ </table>
+
+ 
+ 
+
+ </form>
+ </div>
+ </div>
+
+
+
+
+
+</body>
+</html>
